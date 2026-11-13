@@ -69,7 +69,7 @@ echo "Installation complete!"
 
 Make executable, commit and check log:
 
-```bash
+```
 chmod +x install.sh
 git add install.sh
 git commit -m "Add install script"
@@ -87,8 +87,8 @@ git log
 
 ## Part 9: Push to GitHub
 
-```bash
-git remote add origin [https://github.com/virgdrnd/my-first-repo.git](https://github.com/virgdrnd/my-first-repo.git)
+```
+git remote add origin https://github.com/virgdrnd/my-first-repo.git
 git push -u origin main
 ```
 
@@ -96,7 +96,7 @@ git push -u origin main
 
 ## Part 10: Delete and clone
 
-```bash
+```
 cd ..
 rm -rf my-first-repo
 git clone [https://github.com/virgdrnd/my-first-repo.git](https://github.com/virgdrnd/my-first-repo.git)
@@ -122,7 +122,7 @@ git commit -m "Add install script"
 git checkout main
 git merge feature-install
 git branch -d feature-install
-git remote add origin [https://github.com/virgdrnd/bash-installer.git](https://github.com/virgdrnd/bash-installer.git)
+git remote add origin https://github.com/virgdrnd/bash-installer.git
 git push -u origin main
 ```
 
