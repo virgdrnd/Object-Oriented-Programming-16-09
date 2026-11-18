@@ -1,8 +1,6 @@
 # Object-Oriented-Programming-16-09
 
 
-# Object-Oriented Programming
-
 Course exercises and answers:
 
 - `01-bash-env-setup/`: Bash script to set up a Python environment on macOS (Slide 18)
